@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		777D995B1E32CD8E005241AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D995A1E32CD8E005241AB /* AppDelegate.swift */; };
-		777D995D1E32CD8E005241AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D995C1E32CD8E005241AB /* ViewController.swift */; };
+		777D995D1E32CD8E005241AB /* loginvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D995C1E32CD8E005241AB /* loginvc.swift */; };
 		777D99601E32CD8E005241AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777D995E1E32CD8E005241AB /* Main.storyboard */; };
 		777D99621E32CD8E005241AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777D99611E32CD8E005241AB /* Assets.xcassets */; };
 		777D99651E32CD8E005241AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777D99631E32CD8E005241AB /* LaunchScreen.storyboard */; };
 		777D99701E32CD8E005241AB /* viewcontrollers_seaqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D996F1E32CD8E005241AB /* viewcontrollers_seaqueTests.swift */; };
 		777D997B1E32CD8E005241AB /* viewcontrollers_seaqueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D997A1E32CD8E005241AB /* viewcontrollers_seaqueUITests.swift */; };
+		777D99891E32CF17005241AB /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D99881E32CF17005241AB /* MusicListVC.swift */; };
+		777D998B1E32D904005241AB /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D998A1E32D904005241AB /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		777D99571E32CD8E005241AB /* viewcontrollers_seaque.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewcontrollers_seaque.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		777D995A1E32CD8E005241AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		777D995C1E32CD8E005241AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		777D995C1E32CD8E005241AB /* loginvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginvc.swift; sourceTree = "<group>"; };
 		777D995F1E32CD8E005241AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		777D99611E32CD8E005241AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		777D99641E32CD8E005241AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		777D99761E32CD8E005241AB /* viewcontrollers_seaqueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viewcontrollers_seaqueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		777D997A1E32CD8E005241AB /* viewcontrollers_seaqueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewcontrollers_seaqueUITests.swift; sourceTree = "<group>"; };
 		777D997C1E32CD8E005241AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777D99881E32CF17005241AB /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		777D998A1E32D904005241AB /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				777D995A1E32CD8E005241AB /* AppDelegate.swift */,
-				777D995C1E32CD8E005241AB /* ViewController.swift */,
+				777D995C1E32CD8E005241AB /* loginvc.swift */,
 				777D995E1E32CD8E005241AB /* Main.storyboard */,
 				777D99611E32CD8E005241AB /* Assets.xcassets */,
 				777D99631E32CD8E005241AB /* LaunchScreen.storyboard */,
 				777D99661E32CD8E005241AB /* Info.plist */,
+				777D99881E32CF17005241AB /* MusicListVC.swift */,
+				777D998A1E32D904005241AB /* PlaySongVC.swift */,
 			);
 			path = viewcontrollers_seaque;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				777D995D1E32CD8E005241AB /* ViewController.swift in Sources */,
+				777D99891E32CF17005241AB /* MusicListVC.swift in Sources */,
+				777D998B1E32D904005241AB /* PlaySongVC.swift in Sources */,
+				777D995D1E32CD8E005241AB /* loginvc.swift in Sources */,
 				777D995B1E32CD8E005241AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
